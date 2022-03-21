@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f08080;
+  color: #703B3B;
+  width: 100%;
+  padding: 20px;
+}
+
+.navbar__links {
+  list-style: none;
+  display: flex;
+} 
+
+.navbar__link>a {
+  text-decoration: none;
+  color: #703B3B;
+  transition: all 0.5s;
+}
+
+.navbar__link>a:hover {
+  text-decoration: none;
+  color: #F2C9C9;
+  transition: all 0.5s;
+}
+
+.navbar__link:nth-child(n+2) {
+  margin-left: 10px;
+}

@@ -1,0 +1,12 @@
+.login_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 200px;
+}
+
+.login_form>input {
+  border-radius: 25px;
+  border: none;
+  padding: 10px;
+}

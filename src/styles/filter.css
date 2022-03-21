@@ -1,0 +1,45 @@
+.filter_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.filter_inner {
+  display: flex;
+  
+}
+
+.filter_dir {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  
+}
+
+.filter_dir__item {
+  border: 1px solid #703B3B;
+  background-color: #F2C9C9;
+  color: #703B3B;
+  cursor: pointer;
+}
+
+.filter_dir__item:nth-child(n+2) {
+  margin-top: 2px;
+}
+
+.filter {
+  align-self: flex-start;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #F2C9C9;
+  color:#703B3B;
+  border: none;
+  font-size: 16px;
+}
+
+.filter:focus-visible {
+  outline: 1px solid #703B3B;
+}
+
